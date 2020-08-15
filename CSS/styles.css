@@ -4,7 +4,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h1 {
@@ -15,13 +15,13 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
 
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 
@@ -38,18 +38,62 @@ section {
 
 /**************************class selectors************************/
 
+.btn{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color:white;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    min-width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px; 
+}
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+.btn span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after{
+    opacity: 1;
+    right: 0
+}
 
 .cloud1 {
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 20%;
+    top: 10%;
+    max-width: 25%;
+
 
 }
 
 .cloud2 {
     position: absolute;
-    left: 300x;
-    bottom: 300px;
+    left: 15%;
+    bottom: 35%;
+    max-width: 28%;
+    
+
 }
 
 .credits {
@@ -58,14 +102,14 @@ section {
     text-decoration: none;
 }
 
-.footer-icon {
+.bottom-container img {
     max-height: auto;
     max-width: 30px;
     padding: 0 3px;
 
 }
 
-.footer-link {
+.bottom-container a{
     text-decoration: none;
 }
 
@@ -81,14 +125,28 @@ section {
 }
 
 .mountain {
-    max-width: 100%;
+    max-width: 70%;
     max-height: auto;
 
 }
 
+.profile img {
+    /*height: 20px;
+  width:20px;*/
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    max-height: auto;
+    max-width: 35%;
+}
+
+.profile:hover img{
+    max-width: 38%;
+    max-height: auto;
+}
 .skillsbanner {
     max-height: auto;
-    max-width: 30%;
+    max-width: 40%;
     padding: 10px;
 }
 
@@ -100,18 +158,3 @@ section {
 }
 
 /************************** id selectors ************************/
-
-#profilepicture {
-    /*height: 20px;
-  width:20px;*/
-    position: relative;
-    top: 30px;
-    margin: 0 auto;
-    max-height: 300px;
-    max-width: 300px;
-}
-
-#profilepicture:hover {
-    max-width: 310px;
-    max-height: 310px;
-}
