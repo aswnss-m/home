@@ -1,0 +1,117 @@
+/**************************Tag selectors************************/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    margin-top: 0;
+    position: relative;
+    font-family: 'East Sea Dokdo', cursive, sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+
+}
+
+p {
+
+    font-size: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 30px;
+}
+
+/**************************class selectors************************/
+
+
+.cloud1 {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.cloud2 {
+    position: absolute;
+    left: 300x;
+    bottom: 300px;
+}
+
+.credits {
+    text-size: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-icon {
+    max-height: auto;
+    max-width: 30px;
+    padding: 0 3px;
+
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.logos {
+    max-height: 40px;
+    max-width: auto;
+    padding-top: 10px;
+}
+
+.logos:hover {
+    max-height: 55px;
+    max-width: auto;
+}
+
+.mountain {
+    max-width: 100%;
+    max-height: auto;
+
+}
+
+.skillsbanner {
+    max-height: auto;
+    max-width: 30%;
+    padding: 10px;
+}
+
+.topcontainer {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    width: 100%;
+}
+
+/************************** id selectors ************************/
+
+#profilepicture {
+    /*height: 20px;
+  width:20px;*/
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+#profilepicture:hover {
+    max-width: 310px;
+    max-height: 310px;
+}
